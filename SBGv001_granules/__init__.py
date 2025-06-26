@@ -1,4 +1,4 @@
-from .SBG_TIR_granules import *
+from .SBGv001_granules import *
 
 from os.path import join, abspath, dirname
 

@@ -3,8 +3,8 @@ requires = ["setuptools>=60", "setuptools-scm>=8.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "SBG_TIR_granules"
-version = "0.1.2"
+name = "SBGv001-granules"
+version = "1.0.1"
 description = "SBG-TIR OTTER Collection 1 Data Product Granule Encapsulation Classes"
 readme = "README.md"
 authors = [
@@ -39,8 +39,8 @@ dev = [
 SBG_TIR_granules = ["*.txt"]
 
 [project.urls]
-"Homepage" = "https://github.com/sbg-tir/SBG-TIR-granules"
+"Homepage" = "https://github.com/sbg-tir/SBGv001-granules"
 
 [tool.setuptools.packages.find]
-include = ["SBG_TIR_granules"]
+include = ["SBGv001_granules"]
 exclude = []
